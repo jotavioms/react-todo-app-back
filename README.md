@@ -24,6 +24,29 @@ Back-end for react-todo-app.
 
 `npm run production`
 
+### Endpoint
+❯ Request
+
+```
+http://localhost:3003/api/todos/
+```
+
+❯ Response
+
+```
+[
+  {
+    "_id": "5d1fa1b9bc17777fd3be2d9a",
+    "description": " Finish my React project",
+    "__v": 0,
+    "createdAt": "2019-07-05T19:15:05.830Z",
+    "done": false
+  }
+]
+```
+
+*Test with urlenconded
+
 ### Additional commands
 ❯ Stop mongoDB service (Linux)
 
