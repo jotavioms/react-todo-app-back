@@ -11,6 +11,10 @@ Back-end for react-todo-app.
 
 `sudo service mongod start`
 
+❯ Start mongoDB service (Mac)
+
+`brew services start mongodb-community@4.2`
+
 ❯ Start nodemon
 
 `npm run dev`
@@ -37,7 +41,7 @@ http://localhost:3003/api/todos/
 [
   {
     "_id": "5d1fa1b9bc17777fd3be2d9a",
-    "description": " Finish my React project",
+    "description": "Finish my React project",
     "__v": 0,
     "createdAt": "2019-07-05T19:15:05.830Z",
     "done": false
@@ -51,6 +55,10 @@ http://localhost:3003/api/todos/
 ❯ Stop mongoDB service (Linux)
 
 `sudo service mongod stop`
+
+❯ Stop mongoDB service (Mac)
+
+`brew services stop mongodb-community@4.2`
 
 ❯ Stop pm2 on production
 
